@@ -26,5 +26,6 @@ function showSlides(n) {
  
   setTimeout(() => {
     showSlides(slideIndex += 1);
-  }, 3000); // Change image every 6 seconds
+  }, 5500); // Change image every 6 seconds
 }
+

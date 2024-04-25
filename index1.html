@@ -3,43 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Power Clean</title>
 </head>
 <body>
+<div class="wrap">
 
-    <header class="header">
-        <div class="icon">
-            <a href="#Home"><img src="../asset/logo.png"/></a>
+    <div class="navbar">
+        <div class="container flex-nav">
+            <div class="nav-header">
+                <span><img src="../asset/logo.png"></span>
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <ul>
+                    <li class="nav-link"><a href="#">Products</a></li>
+                    <li class="nav-link"><a href="#">About</a></li>
+                    <li class="nav-link"><a href="#"><span>Contact</span></a></li>
+                </ul>
+            </nav>
         </div>
-        
-        <!-- On mobile -->
-        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-        <span class="menuBar" style="font-size:20px; cursor:pointer" onclick="openNav()">&#9776;</span>        -->
-        <!-- <div class="topnav" id="ulNav">
-            <a href="#About">About Us</a>
-            <a href="#Store">Store</a>
-            <a href="#Products">Products</a>
-            
-                <span class="menuBar" style="font-size:20px; cursor:pointer" onclick="openNav()">&#9776;</span>            
-        </div> -->
-
-            
-        <!-- On Desktop -->
-        <div class="navigator">
-                <ul class="menus">
-                <li class="menu"><a href="#">About Us</a></li>
-                <li class="menu"><a href="#">Store</a></li>
-                <li class="menu">
-                    <a href="#">Products</a>
-                </li>
-            </ul> 
-        </div> 
-       
-
-    </header>
-
+    </div>
+    
 
     <section class="slide-container">
 
@@ -73,6 +60,8 @@
     
     
 
+
+
     <footer class="footer">
         <div class="logo">
             <a href="" class="logo"><img src="../asset/logo.png"/></a>
@@ -103,11 +92,25 @@
         <div class="connect">
             <h1>Connect with us</h1>
             <ul>
-                <li>Powerclean Solutions</li>
+                <li><i class="fa-brands fa-facebook" style="font-size: 18px;"></i>&nbsp;Powerclean Solutions</li>
             </ul>
         </div>
     </footer>
 
+</div>
+    
+<script>
+    // nav toggle - select button and links
+    const navToggle = document.querySelector("#navToggle")
+    const nav = document.querySelector("#nav-links")
+
+    // add event listener
+    navToggle.addEventListener("click", () => {
+        nav.classList.toggle('nav-open')
+    })
+</script>
 <script src="../asset/js/slides.js"></script>
+
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
 </html>
