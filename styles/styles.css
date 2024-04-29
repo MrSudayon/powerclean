@@ -503,16 +503,19 @@ path.two {
 /* Hover Action*/
 /* Move up two texts (20px = font-size) */
 .link:hover .link-container {
+
     transform: translateY(-20px);
 }
   
 /* Rotate texts a little bit */
-.link:hover .link-title1 {
+.link:hover .link-title1 {    
     transform: rotate(20deg);
 }
   
 .link:hover .link-title2 {
     transform: rotate(0);
+    font-family: 'AvenirNextLTProBold';
+
 }
   
 /* Move arrows to right */
@@ -734,6 +737,7 @@ path.two {
     }
     .text {
         font-size: 1.8em;
+
     }      
       
 

@@ -1,9 +1,11 @@
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="./asset/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +18,7 @@
     <div class="navbar">
         <div class="container flex-nav">
             <div class="nav-header">
-                <span><a href="#"><img src="../asset/logo.png"></a></span>
+                <span><a href="#"><img src="./asset/logo.png"></a></span>
                 <button class="nav-toggle" id="navToggle">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -37,17 +39,17 @@
         <div class="slide-show">
             <div class="slides fade">
                 <div class="numbertext">1 / 3</div>
-                <img src="../asset/slides/dealer.png"></img>
+                <img src="./asset/slides/dealer.png"></img>
             </div>
     
             <div class="slides fade">
                 <div class="numbertext">2 / 3</div>
-                <img src="../asset/slides/deliver.png"></img>
+                <img src="./asset/slides/deliver.png"></img>
             </div>
 
             <div class="slides fade">
                 <div class="numbertext">3 / 3</div>
-                <img src="../asset/slides/anniv.png"></img>
+                <img src="./asset/slides/anniv.png"></img>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -72,7 +74,7 @@
             </div><br><br>
 
             <div class="menu">
-                <a class="cta" href="#">
+                <a class="cta" href="./view/products.php">
                     <span>Explore</span>
                     <span>
                         <svg class="svg" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -189,7 +191,7 @@
 
     <footer class="footer">
         <div class="logo">
-            <a href="" class="logo"><img src="../asset/logo.png"/></a>
+            <a href="" class="logo"><img src="./asset/logo.png"/></a>
         </div>
     
         <div class="contact">
@@ -235,8 +237,7 @@
 </div>
     
 
-<script src="../asset/js/slides.js"></script>
-
+<script src="./asset/js/slides.js"></script>
 <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
 </html>
