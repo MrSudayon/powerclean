@@ -1,0 +1,34 @@
+/* .nav-links {
+    text-transform: uppercase;
+    height: 0;
+    overflow: hidden;
+}
+.nav-links a {
+    font-weight: 700;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-links a::after {
+    content: "";
+    background: rgba(0, 38, 157, 0.35);
+    position: absolute;
+    left: 12px;
+    bottom: -3px;
+    width: calc(100% - 5px);
+    height: calc(100% - 14px);
+    z-index: -1;
+    transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+}
+.nav-links a:hover:after {
+
+    left: 0;
+    background: rgba(255, 242, 37, 0.75);
+    border-radius: 50px;
+    padding: 0 6%;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+}
+ */
