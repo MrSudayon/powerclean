@@ -1,0 +1,27 @@
+# Ignore files
+*.txt
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore environment configuration files
+.env
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore session files
+/session/
+
+# Ignore composer.lock file
+composer.lock
+
+# Ignore any files ending with .swp (vim swap files)
+*.swp
+
+# Ignore any files ending with .swo (vim swap files)
+*.swo
