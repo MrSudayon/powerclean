@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="icon" href="./asset/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Power Clean</title>
+    
+    <title>POWERCLEAN</title>
 </head>
 <body>
 <div class="wrap">
@@ -18,14 +19,14 @@
     <div class="navbar">
         <div class="container flex-nav">
             <div class="nav-header">
-                <span><a href="#"><img src="./asset/logo.png"></a></span>
+                <span><a href="index.php"><img src="./asset/logo.png"></a></span>
                 <button class="nav-toggle" id="navToggle">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
             <nav class="nav-links" id="nav-links">
                 <ul>
-                    <li class="nav-link"><a href="#">About</a></li>
+                    <li class="nav-link"><a href="./view/oxc-about.php">About</a></li>
                     <li class="nav-link"><a href="#">Store</a></li>
                     <li class="nav-link"><a href="#">Products</a></li>
                 </ul>
@@ -34,7 +35,7 @@
     </div>
     
 
-    <section class="slide-container">
+    <section class="content-1">
 
         <div class="slide-show">
             <div class="slides fade">
@@ -65,12 +66,12 @@
     </section>
     
     
-    <section class="content">
+    <section class="content-2">
 
         <div class="inner">
             <div class="description">
-                Discover our wide range of high quality cleaning chemicals <br>
-                for Laundry, Housekeeping, Restaurant, and Floor care.
+                "Discover our wide range of high quality cleaning chemicals <br>
+                for Laundry, Housekeeping, Restaurant, and Floor care."
             </div><br><br>
 
             <div class="menu">
@@ -92,20 +93,23 @@
 
     </section>
 
-    <section class="background">
+    <section class="content-3">
         
     </section>
 
-    <section class="dealership">
+    <section class="content-4 dealership">
         <div class="row">
             <div class="column">
                 <div class="image-header" style="background-image: url('asset/distributor.png');"></div>
                 <div class="col-btn1">
+                    <div class="para">
+                        Unlock your business's potential with our 
+                    </div>
                     <a href="#" class="link">
                         <span class="mask">
                             <div class="link-container">
-                                <span class="link-title1 title">PARTNER WITH US</span>
-                                <span class="link-title2 title">PARTNER WITH US</span>
+                                <span class="link-title1 title">Partnership</span>
+                                <span class="link-title2 title">INVEST NOW</span>
                             </div>
                         </span>
                         <div class="link-icon">
@@ -118,17 +122,19 @@
                         </div>
                     </a>
                 </div>
-                
             </div>
+
             <div class="column">
                 <div class="image-header" style="background-image: url('asset/store.jpg');"></div>
-
                 <div class="col-btn2">
+                    <div class="para">
+                        Your convenience is our top priority
+                    </div>
                     <a href="#" class="link">
                         <span class="mask">
                             <div class="link-container">
-                                <span class="link-title1 title">STORE LOCATION</span>
-                                <span class="link-title2 title">STORE LOCATION</span>
+                                <span class="link-title1 title">Visit us</span>
+                                <span class="link-title2 title">STORES</span>
                             </div>
                         </span>
                         <div class="link-icon">

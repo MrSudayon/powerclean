@@ -34,7 +34,7 @@
 }
 
 body {
-    color: black;
+    color: rgb(88, 88, 88);
 }
 
 .container {
@@ -167,10 +167,7 @@ section {
     height: 100%;
 }
 
-
-
-
-.slide-container {
+.content-1 {
     width: auto;
     height: 100%;
 	margin: 90px 0 40px 0;
@@ -269,7 +266,7 @@ img { vertical-align: middle; }
 
 /* Contents TEXTS */
 
-.content {
+.content-2 {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -284,7 +281,6 @@ img { vertical-align: middle; }
     font-weight: 600;
     line-height: 1.5em;
     font-size: 1.5em;
-    color: black;
 }
 
 .menu {
@@ -404,8 +400,10 @@ path.two {
 
 
 
-/* Dealership x */
-.dealership {
+/* CONTENT-4, DEALERSHIP */
+/* CONTENT-4, DEALERSHIP */
+/* CONTENT-4, DEALERSHIP */
+.content-4, .dealership {
     margin: 10px 0;
     padding: 0 5px;
 }
@@ -422,22 +420,27 @@ path.two {
     margin: 20px 0;
 
     height: 80%;
+    filter: brightness(50%);
+}
+.image-header:hover {
+    filter: brightness(100%);
 }
 
 .col-btn1, .col-btn2 {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 15px;
 }
 
-
+.para {
+    font-size: 20px;
+}
 .link {
     height: 30px;
     align-items: center;
-    color: #000;
     text-decoration: none;
     display: flex;
+    justify-content: center;
 }
   
 /* Hide extra text */
@@ -445,7 +448,7 @@ path.two {
     position: relative;
     padding: 0;
     height: 20px;
-  
+
     /*  Remove overflow to see how it works　:) */
     overflow: hidden;
 }
@@ -478,13 +481,11 @@ path.two {
     position: relative;
     width: 35px;
     height: 35px;
-    background: var(--main-color);
-    border: 1px solid var(--sec-color);
     border-radius: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 0px;
   
     /*  Remove overflow to see how it works　:) */
     overflow: hidden;
@@ -503,7 +504,6 @@ path.two {
 /* Hover Action*/
 /* Move up two texts (20px = font-size) */
 .link:hover .link-container {
-
     transform: translateY(-20px);
 }
   
@@ -515,8 +515,8 @@ path.two {
 .link:hover .link-title2 {
     transform: rotate(0);
     font-family: 'AvenirNextLTProBold';
-
 }
+
   
 /* Move arrows to right */
 .link:hover .icon:first-child {
@@ -550,7 +550,9 @@ path.two {
 
 
 
-/* footer */
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
 .footer {
     padding: 4em 40px 0;
     background-color: var(--main-color);
@@ -670,11 +672,13 @@ path.two {
 
 
 
-    /* slides */
+    /* CONTENT-1 */
+    /* CONTENT-1 */
+    /* CONTENT-1 */
     .container {
         padding: 0 4em;
     }
-    .slide-container {
+    .content-1 {
         padding: 0 240px;
     }
 
@@ -717,8 +721,10 @@ path.two {
 
 
 
-    /* Dealership x */
-    .dealership {
+    /* CONTENT-4, DEALERSHIP */
+    /* CONTENT-4, DEALERSHIP */
+    /* CONTENT-4, DEALERSHIP */
+    .content-4, .dealership {
         padding: 50px 240px;
     }
 
@@ -726,7 +732,7 @@ path.two {
         float: left;
         width: 50%;
         height: 400px; /* Should be removed. Only for demonstration */
-        padding: 0 20px;
+        padding: 0 10px;
     }
       
     /* Clear floats after the columns */
