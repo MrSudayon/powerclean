@@ -242,7 +242,7 @@
 
 </div>
     
-
+<script src="./asset/js/nav.js"></script>
 <script src="./asset/js/slides.js"></script>
 <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
