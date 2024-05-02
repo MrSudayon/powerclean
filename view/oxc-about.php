@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,25 +41,40 @@
     </section>
     
     <section class="content-2">
-        <div class="wallpaper">
+        <!-- <div class="wallpaper">
             <img src="../asset/banner.jpg" alt="">
-        </div>
+        </div> -->
         <div class="para">
             POWERCLEAN Solutions is a brand that caters to the needs of Small & Medium Enterprises (SME).
         </div>
     </section>
 
     <section class="content-2">
-        <div class="wallpaper">
-            <img src="../asset/banner.jpg" alt="">
-        </div>
         <div class="para">
             Our CORE PRODUCTS are LAUNDRY chemicals, which gained the trust of most Laundry Businesses in the Philippines.
         </div>
     </section>
 
-</div>
+    <section class="content-4">
+        <div class="row">
+            <div class="column certificate">
+                <div class="para">
+                    <br><h1>YES, WE ARE CERTIFIED</h1><br><br>
+                    <img src='../asset/oxychem.png'>
+                </div>
+            </div>
 
+            <div class="column certificate">
+                <div class="para">
+                    <img src='../asset/ISOxUKAS.jpg'>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php include '../inc/footer.php'; ?>
+
+</div>
 
 <script src="../asset/js/nav.js"></script>
 <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
