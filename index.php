@@ -13,9 +13,10 @@
     <title>POWERCLEAN</title>
 </head>
 <body>
+<div id="progress"></div>
 <div class="wrap">
 
-    <div class="navbar">
+    <!-- <div class="navbar">
         <div class="container flex-nav">
             <div class="nav-header">
                 <span><a href="index.php"><img src="./asset/logo.png"></a></span>
@@ -32,7 +33,7 @@
             </nav>
         </div>
     </div>
-    
+     -->
 
     <section class="content-1">
 
@@ -245,7 +246,39 @@
     </footer> -->
 
 </div>
-    
+
+<script>
+    import { showDialog } from 'https://codepen.io/bramus/pen/ZEqMOLz/cccfe67c2b9cdfbeb5fb59083dbd0a64.js';
+showDialog('https://scroll-driven-animations.style/demos/progress-bar/waapi/');
+
+// 💡 Looking for a pure CSS Version? ~> https://codepen.io/bramus/pen/WNGLpyV
+
+// Polyfill for browsers with no Scroll-Timeline support
+import 'https://rawcdn.githack.com/flackr/scroll-timeline/637746fa559c3f9d01fcdaf2fcb7e649d18dfc33/dist/scroll-timeline.js';
+
+// Create ScrollTimeline
+const myScrollTimeline = new ScrollTimeline({
+	source: document.scrollingElement,
+	scrollSource: document.scrollingElement, // For legacy implementations
+	orientation: 'block',
+    scrollOffsets: [
+        new CSSUnitValue(0, 'percent'),
+        new CSSUnitValue(100, 'percent'),
+    ],
+});
+
+// Animate Progress Bar on Scroll
+new Animation(
+	new KeyframeEffect(
+		document.querySelector('#progress'),
+		{
+			transform: ['scaleX(0)', 'scaleX(1)'],
+		},
+		{ duration: 1, fill: "forwards" }
+	),
+	myScrollTimeline
+).play();
+</script>   
 <script src="./asset/js/nav.js"></script>
 <script src="./asset/js/slides.js"></script>
 <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
