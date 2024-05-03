@@ -575,39 +575,7 @@ path.two {
 /* Desktops */
 
 @media only screen and (min-width: 900px) {
-    .wrap {
-        overflow: none;
-    }
-    .navbar {
-        padding: 20px 80px;
-    }
-    .nav-toggle {
-        display: none;
-    }
-    .nav-header {
-        display: block;
-    }
-    .nav-header img {
-        margin-top: 15px;
-        width: 150px;
-    }
-    .flex-nav {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .nav-links {
-        height: auto;
-    }
-
-
-    .nav-link {
-        display: inline-block;
-        color: black;
-        border-bottom: none;
-        
-    }
-
+    
 
 
 

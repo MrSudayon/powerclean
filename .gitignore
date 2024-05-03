@@ -1,5 +1,6 @@
 # Ignore files
 *.txt
+arc/
 
 # Ignore vendor directory
 /vendor/

@@ -44,9 +44,8 @@ body {
 }
 
 .navHead {
-    
-    margin: 0 auto;
     padding: 10px 40px;
+    margin: 0 auto;
 }
 
 a, ul li {
@@ -69,13 +68,13 @@ div.navbar {
 
 .flex-nav {
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 .nav-header img {
-    width: 90px;
-    
+    width: 70px;
 }
 
 .nav-header {
@@ -151,14 +150,15 @@ div.navbar {
     .navbar {
         padding: 20px 80px;
     }
+    .navHead {
+        padding: 0 8em;
+    }
     .nav-toggle {
         display: none;
     }
-    .nav-header {
-        display: block;
-    }
+
     .nav-header img {
-        margin-top: 15px;
+        margin-top: 80px;
         width: 150px;
     }
     .flex-nav {
@@ -175,7 +175,6 @@ div.navbar {
         display: inline-block;
         color: black;
         border-bottom: none;
-        
     }
     
 
