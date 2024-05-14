@@ -63,9 +63,9 @@
 
 <section class="content-4">
     <div class="row">
+        <br><h1 style="font-size: 4em;">WE ARE CERTIFIED!</h1><br><br><br>
         <div class="column certificate">
             <div class="para">
-                <br><h1>YES, WE ARE CERTIFIED</h1><br><br>
                 <img src='../asset/oxychem.png'>
             </div>
         </div>

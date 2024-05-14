@@ -8,9 +8,9 @@
         </div>
         <nav class="nav-links" id="nav-links">
             <ul>
-                <li class="nav-link"><a href="#">About</a></li>
+                <li class="nav-link"><a href="../view/oxc-about.php">About</a></li>
                 <li class="nav-link"><a href="#">Store</a></li>
-                <li class="nav-link"><a href="#">Products</a></li>
+                <li class="nav-link"><a href="../view/products.php">Products</a></li>
             </ul>
         </nav>
     </div>
