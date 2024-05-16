@@ -15,6 +15,18 @@
 
     <title>POWERCLEAN</title>
 </head>
+<style>
+span {
+    font-weight: 800;
+}
+.para {
+    font-size: 2em;
+}
+.content-2 {
+    display: flex;
+    align-items: center;
+}
+</style>
 <body>
 <!-- <div class="wrap"> -->
 <?php include '../inc/navHeader.php' ?>
@@ -37,12 +49,13 @@
 
 </header>
 
-<section>
-    <h2>Lorem ipsum dolor sit amet.</h2>
-    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-    </p>
+<section class="content-2">
+    <div class="para">
+        <br>
+        <span>POWERCLEAN</span> Solutions is a brand that caters to the needs of Small & Medium Enterprises (SME). 
+        <br><br>
+        Our CORE PRODUCTS are LAUNDRY chemicals, which gained the trust of most Laundry Businesses in the Philippines.
+    </div>
 </section>
 
 
@@ -51,17 +64,15 @@
         <img src="../asset/banner.jpg" alt="">
     </div> -->
     <div class="para">
-        POWERCLEAN Solutions is a brand that caters to the needs of Small & Medium Enterprises (SME).
-    </div>
-</section>
-
-<section class="content-2">
-    <div class="para">
+        With our continuous research and development, <span>POWERCLEAN</span> became a known cleaning supplier for <span>HOUSEKEEPING, KITCHEN, RESTAURANT & FLOOR CARE</span>.    
+        <br><br>
         Our CORE PRODUCTS are LAUNDRY chemicals, which gained the trust of most Laundry Businesses in the Philippines.
+        <br><br>
+        POWERCLEAN gained the trust of many businesses because of these things:
     </div>
 </section>
 
-<section class="content-4">
+<section class="content-4" style="align-items: center;">
     <div class="row">
         <br><h1 style="font-size: 4em;">WE ARE CERTIFIED!</h1><br><br><br>
         <div class="column certificate">
